@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int findMaxConsecutiveOnes(int* nums, int nums_size){
+int find_max_consecutive_ones(int* nums, int nums_size){
     int i, max_length = 0;
     int counter = 0;
     
@@ -22,6 +22,6 @@ int main()
     int nums[6] = {1, 1, 0, 1, 1, 1};
     int nums_size = sizeof(nums)/sizeof(int);
     int max_length;
-    max_length = findMaxConsecutiveOnes(nums, nums_size);
+    max_length = find_max_consecutive_ones(nums, nums_size);
     printf("max_length = %d\n", max_length);
 }
